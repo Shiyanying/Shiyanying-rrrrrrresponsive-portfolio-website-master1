@@ -1,7 +1,7 @@
 $(document).ready(function () {
     /*默认语言*/
     const lang = localStorage.getItem("lang");
-    const defaultLang = lang? lang : "en";
+    const defaultLang = lang? lang : "cn";
     $("[i18n]").i18n({
         defaultLang: defaultLang,
         filePath: "assets/i18n/", //路径配置
